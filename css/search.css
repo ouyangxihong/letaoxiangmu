@@ -1,0 +1,55 @@
+.container {
+    padding: 10px;
+    background: #fff;
+    margin-top: 44px;
+}
+
+.container .search {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #006699;
+    margin-bottom: 20px;
+}
+
+.search input[type="text"] {
+    height: 30px;
+    width: 100%;
+    font-size: 14px;
+    padding: 0 70px 0 10px;
+    background: none;
+    margin: 0;
+}
+
+.search input[type="button"] {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60px;
+    height: 28px;
+    line-height: 12px;
+    background: #006699;
+    color: #fff;
+    border: none;
+    padding: 0;
+    border-radius: 0;
+}
+
+.container .title {
+    padding-bottom: 15px;
+}
+
+.history-top {
+    text-align: center;
+    font-size: 14px;
+    color: #8f8f94;
+}
+
+.history-top .clear {
+    font-size: 14px;
+    line-height: normal;
+}
+
+.mui-table-view-cell {
+    color: #8f8f94;
+}

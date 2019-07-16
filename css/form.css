@@ -1,0 +1,37 @@
+body {
+    background: #fff;
+}
+
+.mui-icon-arrowleft {
+    color: #fff;
+}
+
+#register {
+    background-color: #fff;
+}
+
+.getCode {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #006699;
+}
+
+label {
+    font-size: 16px;
+}
+
+.loginNow {
+    display: block;
+    margin-top: 15px;
+    margin-right: 10px;
+    color: #006699;
+    text-align: right;
+}
+
+.mui-input-password,
+.mui-input-row label,
+.mui-input-clear {
+    font-size: 14px;
+}

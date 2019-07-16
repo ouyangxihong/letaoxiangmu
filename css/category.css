@@ -1,0 +1,72 @@
+/* 分类列表页面 */
+
+.my-content {
+    position: absolute;
+    left: 0;
+    top: 44px;
+    bottom: 50px;
+    width: 100%;
+    background: #f5f5f5;
+}
+
+.cate-left,
+.cate-right {
+    position: relative;
+    height: 100%;
+}
+
+.my-content .cate-left {
+    float: left;
+    width: 80px;
+}
+
+.my-content .cate-right {
+    margin-left: 90px;
+}
+
+.cate-left .links {
+    background-color: #fff;
+    width: 80px;
+}
+
+.cate-left .links a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    width: 80px;
+    text-align: center;
+    border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.cate-left .links .active {
+    background: #f5f5f5;
+    border-right: 1px solid transparent;
+}
+
+.cate-right .brand-list {
+    background: #fff;
+}
+
+.cate-right .brand-list li {
+    float: left;
+    width: 33.33%;
+}
+
+.cate-right .brand-list li a {
+    display: block;
+}
+
+.cate-right .brand-list li a img {
+    width: 100%;
+}
+
+.cate-right .brand-list li a p {
+    text-align: center;
+}
+
+.noresult {
+    padding: 10px;
+    font-size: 14px;
+    color: red;
+}

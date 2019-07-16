@@ -1,0 +1,144 @@
+/* 公共样式部分 */
+
+body {
+    font-size: 14px;
+    background-color: #fff;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+.my-header {
+    background-color: #006699;
+}
+
+.my-header h1 {
+    color: #fff;
+}
+
+.my-header .mui-icon-search {
+    color: #fff;
+}
+
+.my-footer {
+    background-color: #006699;
+}
+
+.my-footer .mui-tab-item {
+    color: #fff;
+}
+
+.my-footer .mui-tab-item.mui-active {
+    color: darkorange;
+}
+
+.nav-link {
+    padding: 10px;
+}
+
+.nav-link a {
+    display: block;
+    float: left;
+    width: 33.33%;
+}
+
+.nav-link a img {
+    display: block;
+    width: 100%;
+}
+
+.brand {
+    padding: 0 10px;
+}
+
+.brand img {
+    width: 100%;
+}
+
+.brand .list {}
+
+.brand .list li {
+    float: left;
+    display: block;
+    width: 25%;
+}
+
+.brand .list li a {
+    display: block;
+}
+
+.product {
+    padding: 0 10px;
+}
+
+.product img {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.product .list li {
+    float: left;
+    width: 50%;
+    display: block;
+}
+
+.product .list li a {
+    display: block;
+    padding: 0 5px;
+    box-shadow: 0 0 5px #ccc;
+    overflow: hidden;
+}
+
+.product .list li a img {
+    width: 100%;
+}
+
+.product .list li .name {
+    display: block;
+    height: 44px;
+    line-height: 18px;
+    color: #8f8f94;
+    padding: 6px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.product .list li p {
+    font-size: 12px;
+    text-align: center;
+    padding: 0 5px;
+}
+
+.product .list li p span:first-child {
+    color: #ff3300;
+}
+
+.product .list li p span:last-child {
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+.product .list li a .buy-now {
+    display: block;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    background-color: #006699;
+    color: #fff;
+    margin: 0 auto 10px;
+}
